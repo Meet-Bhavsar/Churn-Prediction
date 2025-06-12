@@ -1,0 +1,8 @@
+pandas
+tensorflow
+numpy
+scikit-learn
+tensorboard
+matplotlib
+streamlit
+ipykernel # jupyter notebook in vs code
