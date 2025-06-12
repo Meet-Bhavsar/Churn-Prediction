@@ -35,8 +35,16 @@ This repository contains code for predicting customer churn using an Artificial 
 ### 6. **`preprocessed_data.csv`**
    A preprocessed version of the dataset used for making predictions in `prediction.ipynb`. It contains only the necessary features in numerical form.
 
----
+### 7. **`label_encoder_gender.pkl`**
+   A saved `LabelEncoder` used to encode the `Gender` feature into numerical values (0 for Female, 1 for Male).
 
+### 8. **`onehot_encoder_geography.pkl`**
+   A saved `OneHotEncoder` used to one-hot encode the `Geography` feature into binary values (one column for each geography).
+
+### 9. **`scaler.pkl`**
+   A saved `StandardScaler` used to scale the numerical features so that they have a mean of 0 and a standard deviation of 1.
+
+---
 ## Installation
 
 To get started with this project, clone the repository to your local machine and install the necessary dependencies.
